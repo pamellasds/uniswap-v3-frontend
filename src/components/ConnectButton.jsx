@@ -4,7 +4,6 @@ import PageButton from './../components/PageButton';
 
 const ConnectButton = props => {
     const {isConnected, signerAddress, getSigner, provider} = props;
-    console.log(signerAddress);
     const displayAddress = `${signerAddress?.substring(0,10)}...`
 
     return(

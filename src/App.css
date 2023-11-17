@@ -81,13 +81,17 @@ body {
 }
 
 .swapText {
-  color: #000;
+  color: #242424;
   font-size: 20px;
+  float: left;
+  padding: 4px 20px 0px 20px;
 }
 
 .gearContainer {
+  color: #242424;
   float: right;
-  font-size: 22px
+  font-size: 22px;
+  padding: 4px 20px 0px 20px;
 }
 
 /******************************************************************************/
